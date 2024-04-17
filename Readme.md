@@ -24,19 +24,19 @@ En esta etapa de Ingeniería de Datos, realicé un proceso de ETL, extracción, 
 
 Al final de esta etapa, se crea un dataset en formato CSV que servirá para trabajar en la siguiente etapa y se guardarán en la carpeta: Datasets.
 #### Notebook Links:
-- *ETL-Homicidios:* https://github.com/jalcantara777/RoadCase/blob/main/1_Mandatory_ETL.ipynb
-- *ETL-Lesiones:* https://github.com/jalcantara777/RoadCase/blob/main/1_Supplementary_ETL.ipynb
+- *ETL-Homicidios:* https://github.com/jalcantara777/RoadCase/blob/main2/1_Mandatory_ETL.ipynb
+- *ETL-Lesiones:* https://github.com/jalcantara777/RoadCase/blob/main2/1_Supplementary_ETL.ipynb
 
 #### Data Sources:
-- *XLS-Homicidios:* https://github.com/jalcantara777/RoadCase/blob/main/Datasets/homicidios.xlsx
-- *XLS-Lesiones:*   https://github.com/jalcantara777/RoadCase/blob/main/Datasets/lesiones.xlsx
-- *XLS-Comunas:*    https://github.com/jalcantara777/RoadCase/blob/main/Datasets/comunas.xlsx
+- *XLS-Homicidios:* https://github.com/jalcantara777/RoadCase/blob/main2/Datasets/homicidios.xlsx
+- *XLS-Lesiones:*   https://github.com/jalcantara777/RoadCase/blob/main2/Datasets/lesiones.xlsx
+- *XLS-Comunas:*    https://github.com/jalcantara777/RoadCase/blob/main2/Datasets/comunas.xlsx
 
 ## 2. EDA - Exploratory Data Analysis
 En esta etapa de Análisis Exploratorio de Datos, se realizaron la conversión y completado de los datos, también se verificaron y eliminaron los datos nulos, duplicados, outliers y el cambio en el formato de algunos datos para posteriormente realizar un análisis de correlación entre las variables que están en estos datos depurados. En esta etapa no se crea un dataset para trabajar en la siguiente etapa ya que utilizará el mismo que se uso para esta etapa.
 
-#### Notebook Link: https://github.com/jalcantara777/RoadCase/blob/main/2_EDA.ipynb
-#### Data Source: https://github.com/jalcantara777/RoadCase/blob/main/Datasets/deadly_acc.csv
+#### Notebook Link: https://github.com/jalcantara777/RoadCase/blob/main2/2_EDA.ipynb
+#### Data Source: https://github.com/jalcantara777/RoadCase/blob/main2/Datasets/deadly_acc.csv
 
 ## 3. DV - Data Viz
 Después de haber realizado un exhaustivo estudio estadístico y de análisis de datos y gráficos, ahora sólo queda plasmar lo encontrado en la etapa anterior en un informe interactivo y visual, es decir, un dashboard, el cual fue realizado con la herramienta de PowerBI.
@@ -49,9 +49,9 @@ Luego de realizar un completo análisis gráfico y superpuesto entre las varias 
 https://app.powerbi.com/view?r=eyJrIjoiOGI3Y2I2MjEtNzM5Ni00ODA2LTgwNDctNDg3ZjE0YTdmNTk4IiwidCI6Ijc1MDRlMzE4LThlMWUtNGQ1NS1iZmZkLTg3NWI0ZGVlODI2MCIsImMiOjR9&embedImagePlaceholder=true&pageName=ReportSectiondb8385b8c9ae951d54a5
 
 #### Data Source: 
-- Processed data: https://github.com/jalcantara777/RoadCase/blob/main/Datasets/deadly_acc.csv
+- Processed data: https://github.com/jalcantara777/RoadCase/blob/main2/Datasets/deadly_acc.csv
 - CABA Population data: https://www.indec.gob.ar/ftp/cuadros/poblacion/proy_1025_depto_buenos_aires.xls (fue modificado)
-- Death rate KPI calculate: https://github.com/jalcantara777/RoadCase/blob/main/Datasets/Sem_proy.xlsx
+- Death rate KPI calculate: https://github.com/jalcantara777/RoadCase/blob/main2/Datasets/Sem_proy.xlsx
 
 ## 4. Conclusiones
 - Si bien el estudio de los KPIs, muestran que los 3 están siendo cumplidos, no se debe estar conformes con el desarrollo de la nueva política implementada sino estar atentos y velar para que estos objetivos se mantengan.
