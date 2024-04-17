@@ -25,11 +25,12 @@ En esta etapa de Ingeniería de Datos, realicé un proceso de ETL, extracción, 
 Al final de esta etapa, se crea un dataset en formato CSV que servirá para trabajar en la siguiente etapa y se guardarán en la carpeta: Datasets.
 #### Notebook Links:
 - *ETL-Homicidios:* https://github.com/jalcantara777/RoadCase/blob/main/1_Mandatory_ETL.ipynb
-- *ETL-Lesiones:  * https://github.com/jalcantara777/RoadCase/blob/main/1_Supplementary_ETL.ipynb
+- *ETL-Lesiones:* https://github.com/jalcantara777/RoadCase/blob/main/1_Supplementary_ETL.ipynb
 
 #### Data Sources:
-- *XLS-Homicidios:* https://data.buenosaires.gob.ar/dataset/victimas-siniestros-viales
-- *XLS-Lesiones:*   https://data.buenosaires.gob.ar/dataset/victimas-siniestros-viales
+- *XLS-Homicidios:* https://github.com/jalcantara777/RoadCase/blob/main/Datasets/homicidios.xlsx
+- *XLS-Lesiones:*   https://github.com/jalcantara777/RoadCase/blob/main/Datasets/lesiones.xlsx
+- *XLS-Comunas:*    https://github.com/jalcantara777/RoadCase/blob/main/Datasets/comunas.xlsx
 
 ## 2. EDA - Exploratory Data Analysis
 En esta etapa de Análisis Exploratorio de Datos, se realizaron la conversión y completado de los datos, también se verificaron y eliminaron los datos nulos, duplicados, outliers y el cambio en el formato de algunos datos para posteriormente realizar un análisis de correlación entre las variables que están en estos datos depurados. En esta etapa no se crea un dataset para trabajar en la siguiente etapa ya que utilizará el mismo que se uso para esta etapa.
@@ -39,17 +40,18 @@ En esta etapa de Análisis Exploratorio de Datos, se realizaron la conversión y
 
 ## 3. DV - Data Viz
 Después de haber realizado un exhaustivo estudio estadístico y de análisis de datos y gráficos, ahora sólo queda plasmar lo encontrado en la etapa anterior en un informe interactivo y visual, es decir, un dashboard, el cual fue realizado con la herramienta de PowerBI.
-Aquí se puede mostrar adicionalmente a un completo análisis gráfico y superpuesto entre varias variables que había encontrar su correlación en la etapa anterior, el desarrollo de los 3 KPI detallados a continuación:
+Luego de realizar un completo análisis gráfico y superpuesto entre las varias variables que se correlacionaban, encontradas en la etapa anterior, se procedió con el desarrollo de los 3 KPI detallados a continuación:
 - 1. Reducir en un 10% la tasa de homicidios en siniestros viales de los últimos seis meses, en CABA, en comparación con la tasa de homicidios en siniestros viales del semestre anterior.
 - 2. Reducir en un 7% la cantidad de víctimas mortales de motociclistas en el último año, en CABA, respecto al año anterior.
 - 3. Reducir en un 15% la cantidad de víctimas fatales de peatones en el último semestre, en CABA, respecto al semestre anterior.
 
-#### Dashboard Link: https://github.com/jalcantara777/RoadCase/blob/main/Roadcase.pbix
+#### Dashboard Link: 
+https://app.powerbi.com/view?r=eyJrIjoiOGI3Y2I2MjEtNzM5Ni00ODA2LTgwNDctNDg3ZjE0YTdmNTk4IiwidCI6Ijc1MDRlMzE4LThlMWUtNGQ1NS1iZmZkLTg3NWI0ZGVlODI2MCIsImMiOjR9&embedImagePlaceholder=true&pageName=ReportSectiondb8385b8c9ae951d54a5
+
 #### Data Source: 
 - Processed data: https://github.com/jalcantara777/RoadCase/blob/main/Datasets/deadly_acc.csv
-- CABA Population data: https://www.indec.gob.ar/ftp/cuadros/poblacion/proy_1025_depto_buenos_aires.xls
-
-#### Render Link : https://steamcase.onrender.com/docs
+- CABA Population data: https://www.indec.gob.ar/ftp/cuadros/poblacion/proy_1025_depto_buenos_aires.xls (fue modificado)
+- Death rate KPI calculate: https://github.com/jalcantara777/RoadCase/blob/main/Datasets/Sem_proy.xlsx
 
 ## 4. Conclusiones
 - Si bien el estudio de los KPIs, muestran que los 3 están siendo cumplidos, no se debe estar conformes con el desarrollo de la nueva política implementada sino estar atentos y velar para que estos objetivos se mantengan.
@@ -60,22 +62,14 @@ Aquí se puede mostrar adicionalmente a un completo análisis gráfico y superpu
 - Monitorear las comunas 1, 4, 9, 8 y 7 en cuanto a los resultados de KPI.
 - Colocar controles en horarios nocturnos cercanos a la madrugadas sobre avenidas en los fines de semana.
 
-
-## Requisitos para la ejecución correcta en la web
-
-Asegúrate de tener lo siguientes antes de entrar al link del dashboard en la nube:
-
-- 
-
-
-## Herramientas y plataformas web usadas
+## 5. Herramientas y plataformas web usadas
 - Visual Studio Code: editor de código
 - Python: lenguaje de programación (versión 3.11)
-- PowerBI: servicio de análisis de datos
+- PowerBI Desktop: servicio de análisis de datos (2.128)
 - Excel: hoja de cálculo
 - GitHub: repositorio del proyecto y fuente para la API
 - GitBash: terminal con Linux-core
 - Google Maps Platform: mapas satelitales en la web
 - Dynamica Labs: servicio Google Maps
-- Data Factory : servicio de integración de datos
+- PowerBI service: servicio en la nube de PowerBI
 
