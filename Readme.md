@@ -48,6 +48,8 @@ Luego de realizar un completo análisis gráfico y superpuesto entre las varias 
 #### Dashboard Link: 
 https://app.powerbi.com/view?r=eyJrIjoiOGI3Y2I2MjEtNzM5Ni00ODA2LTgwNDctNDg3ZjE0YTdmNTk4IiwidCI6Ijc1MDRlMzE4LThlMWUtNGQ1NS1iZmZkLTg3NWI0ZGVlODI2MCIsImMiOjR9&embedImagePlaceholder=true&pageName=ReportSectiondb8385b8c9ae951d54a5
 
+#### Demo Dashboard Video Link: https://youtu.be/OJMJCZUxB_U
+
 #### Data Source: 
 - Processed data: https://github.com/jalcantara777/RoadCase/blob/main2/Datasets/deadly_acc.csv
 - CABA Population data: https://www.indec.gob.ar/ftp/cuadros/poblacion/proy_1025_depto_buenos_aires.xls (fue modificado)
@@ -73,3 +75,12 @@ https://app.powerbi.com/view?r=eyJrIjoiOGI3Y2I2MjEtNzM5Ni00ODA2LTgwNDctNDg3ZjE0Y
 - Dynamica Labs: servicio Google Maps
 - PowerBI service: servicio en la nube de PowerBI
 
+## 6. Datos de CONTACTO
+- Nombre: José Alcántara 
+<br>
+<img src="images/Avatar_DA.png" alt="Imagen no encontrada" height=200px>
+- Correo Electrónico: jalcantara777@yahoo.com
+<br>
+<img src="images/NumWhatsapp2.jpg" alt="Imagen no encontrada" height=50px>
+<a href="https://github.com/jalcantara777/"><img src="images/GitHub_logo.jpg" alt="Imagen no encontrada" style="font-size: 30px;height: 50px;"></a>
+<a href="https://www.linkedin.com/in/jalcantara777/"><img src="images/Linkedin_logo.png" alt="Imagen no encontrada" style="font-size: 30px;height: 50px;"></a>
