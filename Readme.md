@@ -56,7 +56,7 @@ https://app.powerbi.com/view?r=eyJrIjoiOGI3Y2I2MjEtNzM5Ni00ODA2LTgwNDctNDg3ZjE0Y
 - Death rate KPI calculate: https://github.com/jalcantara777/RoadCase/blob/main2/Datasets/Sem_proy.xlsx
 
 ## 4. Conclusiones
-- Si bien el estudio de los KPIs, muestran que los 3 están siendo cumplidos, no se debe estar conformes con el desarrollo de la nueva política implementada sino estar atentos y velar para que estos objetivos se mantengan.
+- 2 de los 3 objetivos se cumplieron. Se debe monitorear el KPI de víctimas fatales producidas por moto.
 - Colocar mayor número de controladores o policías de tránsito, a la vez que, incrementar el número de semáforos, si es necesario, a lo largo de la Av. Gral. Paz, haciendo incidencia en los cruces de las comunas 12, 9 y 8.
 - Realizar prevención sobre los conductores Masculinos , teniendo mayor énfasis en los que estén en rango de edad entre 20 a 40 años de las comunas 1, 4 y 9.
 - Asignar efectivos policiales adicionales en las horas matutinas de desplazamiento de los trabajadores hacia sus centros laborales.
